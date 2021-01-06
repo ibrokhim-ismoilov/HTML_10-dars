@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.html" method="POST" name="forma1">
+        <fieldset>
+            <legend>Shaxsiy ma'lumotlar</legend>
+        <label>Ismingiz: </label>
+        <input type="text" name="ism" placeholder="Andrey" required>
+        <br>
+        <label>Familyangiz: </label>
+        <input type="text" name="fam" readonly value="Salomov" disabled hidden>
+        <br>
+        <fieldset title="Maxiy">
+            <legend align="center">Xavsizlik</legend>
+            <label>Parol</label>
+            <input type="password" name="parol" placeholder="Parol" maxlength="8" minlength="4" size="10">
+        </fieldset>
+        <br>
+        <h5>Jinsingiz</h5>
+        <label for="erkak">Erkak</label>
+        <input type="radio" id="erkak" name="jins" checked>
+        <label for="ayolkishi">Ayol</label>
+        <input type="radio" id="ayolkishi" name="jins">
+        <br>
+        <input type="color" name="rang">
+        <br>
+        
+        <input type="checkbox" checked> 
+        <label>Shartlariga roziman</label>
+        <br>
+        <input type="date" name="sana">
+        <input type="week" name="hafta">
+        <input type="search" name="qidiruv" placeholder="qidiuruv bo'limi">
+        <br>
+        <input type="email" name="pochta" placeholder="Email" autofocus>
+        <br>
+        <input type="file" name="fayl" multiple>
+        <input type="button" value="ok">
+
+    </fieldset>
+        
+        <select>
+            <optgroup label="Vodiy">
+                <option>Farg'ona</option>
+                <option>Andijon</option>
+                <option>Namangan</option>
+            </optgroup>
+            <optgroup label="Voha">
+                <option>Toshkent</option>
+                <option>Bukharo</option>
+                <option>Samarkand</option>
+                <option>Navoi</option>
+            </optgroup>
+        </select>
+        <textarea cols="10" rows="5" wrap="hard"></textarea>
+        
+        <br><br>
+        <input type="submit" value="Yuborish">
+        <input type="reset" value="Tozalash">
+        
+    </form>
+</body>
+</html>
